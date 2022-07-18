@@ -318,7 +318,7 @@
     chalk "^2.0.0"
     js-tokens "^4.0.0"
 
-"@babel/parser@^7.1.0", "@babel/parser@^7.12.11", "@babel/parser@^7.12.7", "@babel/parser@^7.14.7", "@babel/parser@^7.18.6", "@babel/parser@^7.18.8":
+"@babel/parser@^7.1.0", "@babel/parser@^7.12.11", "@babel/parser@^7.12.7", "@babel/parser@^7.14.7", "@babel/parser@^7.16.12", "@babel/parser@^7.18.6", "@babel/parser@^7.18.8":
   version "7.18.8"
   resolved "https://registry.yarnpkg.com/@babel/parser/-/parser-7.18.8.tgz#822146080ac9c62dac0823bb3489622e0bc1cbdf"
   integrity sha512-RSKRfYX20dyH+elbJK2uqAkVyucL+xXzhqlMD5/ZXx+dAAwpyB7HsvnHe/ZUGOF+xLr5Wx9/JoXVTj6BQE2/oA==
@@ -1126,7 +1126,7 @@
   dependencies:
     regenerator-runtime "^0.13.2"
 
-"@babel/runtime@^7.0.0", "@babel/runtime@^7.10.2", "@babel/runtime@^7.11.2", "@babel/runtime@^7.12.5", "@babel/runtime@^7.16.3", "@babel/runtime@^7.17.8", "@babel/runtime@^7.18.3", "@babel/runtime@^7.3.1", "@babel/runtime@^7.5.0", "@babel/runtime@^7.7.6", "@babel/runtime@^7.8.4", "@babel/runtime@^7.9.2":
+"@babel/runtime@^7.0.0", "@babel/runtime@^7.10.2", "@babel/runtime@^7.11.2", "@babel/runtime@^7.12.5", "@babel/runtime@^7.13.10", "@babel/runtime@^7.16.3", "@babel/runtime@^7.17.8", "@babel/runtime@^7.18.3", "@babel/runtime@^7.3.1", "@babel/runtime@^7.5.0", "@babel/runtime@^7.7.6", "@babel/runtime@^7.8.4", "@babel/runtime@^7.9.2":
   version "7.18.6"
   resolved "https://registry.yarnpkg.com/@babel/runtime/-/runtime-7.18.6.tgz#6a1ef59f838debd670421f8c7f2cbb8da9751580"
   integrity sha512-t9wi7/AW6XtKahAe20Yw0/mMljKq0B1r2fPdvaAdV/KPDZewFXdaaa6K7lxmZBZ8FBNpCiAT6iHPmd6QO9bKfQ==
@@ -1344,6 +1344,18 @@
   resolved "https://registry.yarnpkg.com/@discoveryjs/json-ext/-/json-ext-0.5.7.tgz#1d572bfbbe14b7704e0ba0f39b74815b84870d70"
   integrity sha512-dBVuXR082gk3jsFp7Rd/JI4kytwGHecnCoTtXFb7DB6CNHp4rg5k1bhg0nWdLGLnOV71lmDzGQaLMy8iPLY0pw==
 
+"@emotion/is-prop-valid@^0.8.2":
+  version "0.8.8"
+  resolved "https://registry.yarnpkg.com/@emotion/is-prop-valid/-/is-prop-valid-0.8.8.tgz#db28b1c4368a259b60a97311d6a952d4fd01ac1a"
+  integrity sha512-u5WtneEAr5IDG2Wv65yhunPSMLIpuKsbuOktRojfrEiEvRyC85LgPMZI63cr7NUqT8ZIGdSVg8ZKGxIug4lXcA==
+  dependencies:
+    "@emotion/memoize" "0.7.4"
+
+"@emotion/memoize@0.7.4":
+  version "0.7.4"
+  resolved "https://registry.yarnpkg.com/@emotion/memoize/-/memoize-0.7.4.tgz#19bf0f5af19149111c40d98bb0cf82119f5d9eeb"
+  integrity sha512-Ja/Vfqe3HpuzRsG1oBtWTHk2PGZ7GR+2Vz5iYGelAw8dx32K0y7PjVuxK6z1nMpZOqAFsRUPCkK1YjJ56qJlgw==
+
 "@eslint/eslintrc@^1.3.0":
   version "1.3.0"
   resolved "https://registry.yarnpkg.com/@eslint/eslintrc/-/eslintrc-1.3.0.tgz#29f92c30bb3e771e4a2048c95fa6855392dfac4f"
@@ -1363,6 +1375,262 @@
   version "1.1.3"
   resolved "https://registry.yarnpkg.com/@gar/promisify/-/promisify-1.1.3.tgz#555193ab2e3bb3b6adc3d551c9c030d9e860daf6"
   integrity sha512-k2Ty1JcVojjJFwrg/ThKi2ujJ7XNLYaFGNB/bWT9wGR+oSMJHMa5w+CUq6p/pVrKeNNgA7pCqEcjSnHVoqJQFw==
+
+"@grupoboticario/flora-react-accordion@3.0.1":
+  version "3.0.1"
+  resolved "https://npm.pkg.github.com/download/@grupoboticario/flora-react-accordion/3.0.1/a9563e59336f455717de63082c5a101bc152909b6eb4187f52b52bbc44bdb422#f69e320e2e1fe6905743064552f35704fb61c2b3"
+  integrity sha512-ZHs0ivasB4/1zcfSAz+n79kx7kpG+wFly4kbQhnoYSnZSIJk+SItaIWSUoyUX/bZbNJLjwE3sRsWUGP7K7ucCw==
+
+"@grupoboticario/flora-react-box@3.0.0":
+  version "3.0.0"
+  resolved "https://npm.pkg.github.com/download/@grupoboticario/flora-react-box/3.0.0/2bd67977499f8c818376a8410e4d74ca05112967d352453cea1fe1cca7d4487d#e00f2678ad49b11a752614e93d0aa3f764c9a74b"
+  integrity sha512-GXcsNsmMLmlnNHnCYA39+InPkahj3ei6p7j6jhac2JMb7sSXr0G1gUrYc2gQp4ZkoQKyMy1O9b+1jc1FaoPSRA==
+
+"@grupoboticario/flora-react-button@3.0.0":
+  version "3.0.0"
+  resolved "https://npm.pkg.github.com/download/@grupoboticario/flora-react-button/3.0.0/77b0d945ac05a3c5c48b9de9f841ce954552f8ca6a167a2851c9e1e35eef7be5#91ab9230e9a4bac064fc502b820bb877b664877a"
+  integrity sha512-SaQccwXE5SqWecUPhqdi0IcllM/1lacZShujH0Av6WwbF0D4Oymf9jrtwpiwhor9L3oAn0z15kld5asjl27Egg==
+
+"@grupoboticario/flora-react-card@3.0.0":
+  version "3.0.0"
+  resolved "https://npm.pkg.github.com/download/@grupoboticario/flora-react-card/3.0.0/a5bd3c127cee772538d7b8336e029584e41640df565e91c363c71a6a7d8bd11e#781cc7996480bd1746bd1463d7fa99cc37feddc9"
+  integrity sha512-ZKWG5amS8wUwpTmEmRRTNiUZj5+RUFTcl038hvhz9poXHZJ5pamftlsG6HM1dRAjWKiyG6r32uo23Tf4LC9o+g==
+
+"@grupoboticario/flora-react-checkbox@3.0.0":
+  version "3.0.0"
+  resolved "https://npm.pkg.github.com/download/@grupoboticario/flora-react-checkbox/3.0.0/661730668abee3c37aa52603b4e2ccd9a3bdcabc2224766d5945e12713b22cc1#04d7805f032e4cba3c7d4bde3639450fd8f99631"
+  integrity sha512-G8qP2Aan7mHYeO3Le7OpeKoopnHK7uQ2qx/CrDf6j2JmVWSP7onsjwM2Gp4zdX3huN4o+9WctvMr0WMCJZ5cPw==
+  dependencies:
+    "@radix-ui/react-checkbox" "0.1.5"
+
+"@grupoboticario/flora-react-container@3.0.0":
+  version "3.0.0"
+  resolved "https://npm.pkg.github.com/download/@grupoboticario/flora-react-container/3.0.0/c21223d937fca035750a2ee908e8ee157f4d51aa238da2b60e72fed6c2ac8b9f#a613c5d1bc152d8723c65ce3fbdc6760997c258a"
+  integrity sha512-U6fk6TXTOGIL4XaNOi6Xc/o+4O0U3LfVN+nx2hMq0SLQ81qA5CvQ+3GWs8F72iw9UfxFKOxILfkimlfUMH26BA==
+
+"@grupoboticario/flora-react-dialog@3.0.0":
+  version "3.0.0"
+  resolved "https://npm.pkg.github.com/download/@grupoboticario/flora-react-dialog/3.0.0/318d4e4bbb29a44290ecbdfbfee2e7bd8a1a34068c3992e8001f6b97fd567c93#5e12017aae80942421676f687b8b5abf68dbb246"
+  integrity sha512-husEX+db8T1NqDa5fbmPP3DvbdTDAdJzI8tHtw1MPgFEo1UVO//oLuFSZWBr4TZ9D+foP3RqOSRVmo7cpvvGvg==
+  dependencies:
+    "@radix-ui/react-dialog" "0.1.7"
+
+"@grupoboticario/flora-react-drawer@3.0.0":
+  version "3.0.0"
+  resolved "https://npm.pkg.github.com/download/@grupoboticario/flora-react-drawer/3.0.0/4d796f70d2d7e840b979ed3092d1f50bde0addda9ee7f4385af47d977c3d7080#49974700b9fba24f08c9e1b67971c2a54ade7ad7"
+  integrity sha512-w0y5RZtFNUx4QXkcmJAnp5g/c296/dVI/nP6k2ZrY1gRN2ceAWhlE8fL1wuO5SvcFg9/xlgdpPTizHSpzxkhkA==
+  dependencies:
+    "@grupoboticario/flora-react-modal" "3.0.0"
+    "@radix-ui/react-dialog" "0.1.7"
+
+"@grupoboticario/flora-react-dropdown@3.0.0":
+  version "3.0.0"
+  resolved "https://npm.pkg.github.com/download/@grupoboticario/flora-react-dropdown/3.0.0/9ea0105100591917db8449dabfb89e0e06b0de0de6cb7f5bd3096068ac185ece#085cccfe0b6a1dc93891249c962d6b88b9f1eacc"
+  integrity sha512-v2VLYg2bqPp+OenILFWJ5hM9A0rS8N0tboJX1NF6Wo5YWKaMmLqTiuE7gIE1S07dyhqCn/eiHHuJHNi4r1oEPQ==
+  dependencies:
+    "@radix-ui/react-dropdown-menu" "0.1.6"
+
+"@grupoboticario/flora-react-flex@3.0.0":
+  version "3.0.0"
+  resolved "https://npm.pkg.github.com/download/@grupoboticario/flora-react-flex/3.0.0/1edd87a7e0fe2fc0755e706152226213b8a0ce1f76758b2d0270b96692271e37#cd0dbf9b98db9c9f05188f86d5a7dade53cb9c34"
+  integrity sha512-TqAXiy+RlEU47pwsbo3bpbUWOd5P/ug7f80CFozPvrbdslH4NtNjGRINUkLBz0XLEWHHhA8ItinYVHbbbMUUkw==
+
+"@grupoboticario/flora-react-flora-provider@3.0.0":
+  version "3.0.0"
+  resolved "https://npm.pkg.github.com/download/@grupoboticario/flora-react-flora-provider/3.0.0/6696003c0b461546c2311c8e7ca61d210770fbe964cdbd45d3b825ffb5ee3937#4ea479400917b6c26c9f226672ebb90cb5569085"
+  integrity sha512-+PaSkPZEsX7PcbbwYutxPErQUdkqIn8ByGrkKfhx04eWy96dJSoBwkkm8qF+BX71iZNG9b9SBg3k+8SZoR5Liw==
+
+"@grupoboticario/flora-react-grid@3.0.0":
+  version "3.0.0"
+  resolved "https://npm.pkg.github.com/download/@grupoboticario/flora-react-grid/3.0.0/84b6c12eae3fed68f2adc23f01268a39f83093b4e372c176e464d8b41927360f#36383b14ff203b491a3e2bd36f176daca2d7d054"
+  integrity sha512-JhlrMc35+F31SGTdO4V7GZ7u6GBP+fPn/O0aPOAnr3wm6x2nkEPaHZQaP8baPpnVpx++y7TL2OsiCkaOn2W/9g==
+
+"@grupoboticario/flora-react-heading@3.0.0":
+  version "3.0.0"
+  resolved "https://npm.pkg.github.com/download/@grupoboticario/flora-react-heading/3.0.0/f158a34ee87347df78e7895141b69c07971ebff4a87c9cee427352032c262dab#25c0882a0c148923181cb6478b247001615db08f"
+  integrity sha512-Rz+Of+OcVfTdXTbUQ7gwMnGL53vvHn2JyS4Lrul5rxr9Dj7ZGuJla8xuWzZmAdu3CfoWbN38vwXbQumisEWgUA==
+
+"@grupoboticario/flora-react-hidden@3.0.0":
+  version "3.0.0"
+  resolved "https://npm.pkg.github.com/download/@grupoboticario/flora-react-hidden/3.0.0/54629870c52ff64568f57b84687cfb10fe409fa7d4acba172580eee419db46ce#c4e9abec5eeb6c76b69c1721f87db04e65a8400b"
+  integrity sha512-vAwBilhKmNA1DmAgCMa9rhSEexsNV6SM10VTwvcqUP0aeVsbXyrHFrh+b1mx0yJuV/URSLVjyaP+Tnc1DoRmVw==
+
+"@grupoboticario/flora-react-hooks@3.0.0":
+  version "3.0.0"
+  resolved "https://npm.pkg.github.com/download/@grupoboticario/flora-react-hooks/3.0.0/17f5c0c729389b3f28f95127e471df9416b964b808894916d959a98f84249bb3#9445bb41ecf5806cbf5f66ac81b8d39550148832"
+  integrity sha512-BPPCNgYd5u9uMwycfcc4JkRCVwmFLGchjTR/vfUS/WVJC2e2RDeL9+BT3MW7gL1Skfmwwbn0xZ11ueCkTROyoA==
+
+"@grupoboticario/flora-react-icons@8.0.1":
+  version "8.0.1"
+  resolved "https://npm.pkg.github.com/download/@grupoboticario/flora-react-icons/8.0.1/02150bd435361ace46382906467d2de9a2fd9b6624ed39b5e0d8906ea8cecb5a#043e08bf2173e2111a3bca8815e547c6f81c264b"
+  integrity sha512-5k2+FX76XJ2XsrCjZsSqae//NjOvx7geMkSwx/ezXKzg9XGBoeYb0fGktG/x0GgO1oOeccMFiAUb++7SI88HDQ==
+
+"@grupoboticario/flora-react-image@3.0.0":
+  version "3.0.0"
+  resolved "https://npm.pkg.github.com/download/@grupoboticario/flora-react-image/3.0.0/3244e4d6a2dd49a1433dcaeb72d140088b72f2af1b47174c0ecacc79bb000112#8187a9c51d98e30e1a4a7b4d3d1e0355b74a5ba0"
+  integrity sha512-CwI+ft5/0g5/YKYYE9B8S1qg0hSXTQ8k8J33RSuyMUgTvXjm2dIUAjxV+RUaOKqDbIq4jtKQxTm7btupNGIxGw==
+
+"@grupoboticario/flora-react-input@3.0.2":
+  version "3.0.2"
+  resolved "https://npm.pkg.github.com/download/@grupoboticario/flora-react-input/3.0.2/5d9ce055855b4ac042a047ea547dee766d817ae07ee1c2bbabbec07abb10bc95#4156c6e967862bbcf9551e88a93528377e0eb089"
+  integrity sha512-WU3UQ2oKsA+7Y1Dd9kXFfOEhlNdt1ULtwnp7EhgO73sEFgmJ6QKlzbY9Qy5qV3eQTlmXx6jLGEZ0E0AQZvCWCw==
+
+"@grupoboticario/flora-react-modal@3.0.0":
+  version "3.0.0"
+  resolved "https://npm.pkg.github.com/download/@grupoboticario/flora-react-modal/3.0.0/54043d9d15fc79f464593bdaa4e853482ed5b106c7af1de31be6f2de37c2cdfb#a92979e3ea532b73345c60fac950e994c3eb60a7"
+  integrity sha512-OsrW/aTCOUcQXePf8X12hlxWBwUH10lP7YLspcxe2A/L2+fs/8U3oXtFn4/0/oIl7Rv66cGPLfWPAd2LeiL+mQ==
+  dependencies:
+    "@radix-ui/react-dialog" "0.1.7"
+
+"@grupoboticario/flora-react-pagination@3.0.0":
+  version "3.0.0"
+  resolved "https://npm.pkg.github.com/download/@grupoboticario/flora-react-pagination/3.0.0/42a8dcd16966d3e76fb7452d5cefc5bbee617af326600dccaa61ac69513b51ff#1354cea4aa0cc4c9bcf72f3a772e674c3ee82741"
+  integrity sha512-iAtIoU0DRKSiMF0BLEbviaK7Nu8gZ9o1xodEA7M2BLaLKleNFiQsOfmQmNUQ0YUBG1dvacLyyDF+CHBUgSTG+A==
+
+"@grupoboticario/flora-react-radio@3.0.0":
+  version "3.0.0"
+  resolved "https://npm.pkg.github.com/download/@grupoboticario/flora-react-radio/3.0.0/fbcf48a0eadd81a9e23ebd6af129389a83c875cce07b4f82eb73b11bcfecd858#9a8508cf9650fdef86ab393f8c0d0baa205357b8"
+  integrity sha512-ldB0QnZqzhTZOZuxcyNOlrH3C1URejhgHwh8TbxtQOvF/6Fli5L+/k8OZWoDAOnP+hVgbhRhfXYpVPadoJD/BA==
+  dependencies:
+    "@radix-ui/react-radio-group" "0.1.5"
+
+"@grupoboticario/flora-react-scroll-area@3.0.1":
+  version "3.0.1"
+  resolved "https://npm.pkg.github.com/download/@grupoboticario/flora-react-scroll-area/3.0.1/40c45fa2fb1c6a5c3975958d5d4fa61ca33d2eb0fe35e41163158070449304ba#daef3a1e26745ab8f38aebc7f4e32dd2dc8af636"
+  integrity sha512-B8wiEXIQBZaiOaPk8wlxNJ+drUp3NJl0gEBXGNT/ViCOYZTp3nB5mvK1e6FZlEAzJNS1mZch+XByMN8ISiD/BA==
+  dependencies:
+    "@radix-ui/react-scroll-area" "0.1.4"
+
+"@grupoboticario/flora-react-slider@3.0.1":
+  version "3.0.1"
+  resolved "https://npm.pkg.github.com/download/@grupoboticario/flora-react-slider/3.0.1/91aabe0b269a16c328d307f05bd546503bda225f5281621ae4f146bcfd751093#7688252f32ae51a602896747095a4adb00d07b26"
+  integrity sha512-R63SqyTWwYvX0bibWyY0KpdOIT1kmRutUqQtdKEOCV7u4FhDCf/oe1h4COv+j+RQm2T8kSiKSgHzm6gV2PXttA==
+  dependencies:
+    "@radix-ui/react-slider" "0.1.4"
+
+"@grupoboticario/flora-react-spinner@3.0.0":
+  version "3.0.0"
+  resolved "https://npm.pkg.github.com/download/@grupoboticario/flora-react-spinner/3.0.0/84402ff8af745f9950b64f692785249bdf7fb209bf55079691b32ed9f4e93696#3124a3363eafc5db961cd42457fa0d461846d755"
+  integrity sha512-0eoamokXKmq1ONNkVLmJpr4mP1wPNFy2pgkPCAGTAlQ7j5l/JE9moiUSzH2Ak47bCtuQURxnBq7q0SqwuuxFYQ==
+
+"@grupoboticario/flora-react-switch@3.0.1":
+  version "3.0.1"
+  resolved "https://npm.pkg.github.com/download/@grupoboticario/flora-react-switch/3.0.1/685efe8f9d15c1b197f1636c952fd1b6b4feb6ec805dd2281a18c6dad7efea92#b303bd09fa18ba2bb6b0c6df4dcda561b3e1dfb7"
+  integrity sha512-NFpkI6q/dvP3bb89YImntWjEOyTTKaUdpNnDDRBLTazfBbfh87FRHO2n6shNJ9avirx2YQOsD3PVG1AXWGm79A==
+  dependencies:
+    "@radix-ui/react-switch" "0.1.5"
+
+"@grupoboticario/flora-react-system@0.9.5":
+  version "0.9.5"
+  resolved "https://npm.pkg.github.com/download/@grupoboticario/flora-react-system/0.9.5/1900e66ca99470e7ca4c01aeb04d7dcb0f5d2351492318d7caddf6581f1e12b1#d43c68d827363be9e517af973de8f9c3e6ae81e5"
+  integrity sha512-p4dQ0YE6Z+nJxwLP/kmpJZKHFxDQz2YxF89FbyVZiqXArx6AcDnY8wpAXMnd5bepH7riACfGtn0Ianz1LG1zZg==
+  dependencies:
+    "@grupoboticario/flora" "0.19.7"
+    "@grupoboticario/flora-react-icons" "8.0.1"
+    "@juggle/resize-observer" "3.3.1"
+    "@radix-ui/react-accessible-icon" "0.1.4"
+    "@radix-ui/react-id" "0.1.5"
+    "@radix-ui/react-visually-hidden" "0.1.4"
+    framer-motion "4.1.17"
+
+"@grupoboticario/flora-react-tabs@3.0.0":
+  version "3.0.0"
+  resolved "https://npm.pkg.github.com/download/@grupoboticario/flora-react-tabs/3.0.0/c18e8c54f2ab859868a6b1303875104d673c7f91d611f289c8e765a3d4dd4f23#a754c7e840d833cca8ac48001473b2d339d89e3f"
+  integrity sha512-b8PEWvwH/7ZUaS4d6TfpARAMmpvv7Itfqcv6A89wsTxuEn0k9Dyo0R7imGUiavMpLbofBWmvSrruJvybjbYH9w==
+  dependencies:
+    "@radix-ui/react-tabs" "0.1.5"
+
+"@grupoboticario/flora-react-tag@3.0.1":
+  version "3.0.1"
+  resolved "https://npm.pkg.github.com/download/@grupoboticario/flora-react-tag/3.0.1/455e514ec0a44808f7a453404e7c182de844c149e0e6c5120fc93866557aa42e#14073996b5d4195762c73e9763131ed270fd89c5"
+  integrity sha512-rGXrNzZH2rDH3esGJ4iaPR1W/NH4cplxJQkVdnV4AyrUVajUJMQxRfLo4wmOQF/X79riZxGNqfXqOSHwT0y2VA==
+
+"@grupoboticario/flora-react-telemetry@2.0.0":
+  version "2.0.0"
+  resolved "https://npm.pkg.github.com/download/@grupoboticario/flora-react-telemetry/2.0.0/b227f59b2eef937ef81dc0eff71f9fedb3c22b228b5515c0e11aba359d26d062#71ff9a37802abf382e5fcb4dbe3e5fbd6925c75d"
+  integrity sha512-qLN6irib7LO332guiO2c+BN1C1uLGk1LzeFZN8diwMDy5vMbre7FA7N8j9sj1IVfjMuME9xKUsyAMlcgUFnOzw==
+  dependencies:
+    "@babel/parser" "^7.16.12"
+    axios "^0.25.0"
+    globby "^13.1.0"
+
+"@grupoboticario/flora-react-text@3.0.1":
+  version "3.0.1"
+  resolved "https://npm.pkg.github.com/download/@grupoboticario/flora-react-text/3.0.1/f4286418671d8dcce36e8e61728a6d81c295fafcdaf20974ae78cc8172f628c7#79ea0d6b447b6db5b94ed6c80b2eb18952e3e507"
+  integrity sha512-STjfGITkMfWs59qWdqUAbOITS7tmUuJ3s0VVQDFX4/wNg/6cPAfn5tXkqA5lQPGovcEiyYo0tkR07g14qicBgg==
+
+"@grupoboticario/flora-react-toast@3.0.3":
+  version "3.0.3"
+  resolved "https://npm.pkg.github.com/download/@grupoboticario/flora-react-toast/3.0.3/6df1b9a21ae1069887f611a4d60e3aa51adf5f280ac9b81bcc5f499ada705ace#b8320c15b6325ec72d560868269a4cde083491b2"
+  integrity sha512-+Q6OLxxU0LHKHIEw5rCZ3WosDXajf6YrCc4vN0kcRNA1T7gVUBCekjacAaDbPA5Js5/GZ1OBuWv6N+c4v4P5Pg==
+  dependencies:
+    "@radix-ui/react-announce" "0.1.4"
+
+"@grupoboticario/flora-react-tooltip@3.0.0":
+  version "3.0.0"
+  resolved "https://npm.pkg.github.com/download/@grupoboticario/flora-react-tooltip/3.0.0/1c44b28c7d0bd436a98747e8074c8906ea933087dc6f078bac9b9fa45af1c059#2f73abe30ee714e5d94382e2866abe161eed218b"
+  integrity sha512-nwTDIjwxHrIwNHPTDh8h/q9nhbXEeSsK+YuEmbgPJ9insM/xxYcbgIDjAYAu419D/bh1m7O/6Md9gNxuvcCttw==
+  dependencies:
+    "@radix-ui/react-tooltip" "0.1.7"
+
+"@grupoboticario/flora-react-utils@3.0.0":
+  version "3.0.0"
+  resolved "https://npm.pkg.github.com/download/@grupoboticario/flora-react-utils/3.0.0/fb63f1ef99f5aa78d4d14dd33b0e7331ca95d2d808beb97a08c445862bd92150#47c5a65d688d4ba450637962c42acc3b474d47ca"
+  integrity sha512-TZFPkszxLD6dms2hODq4e5hOxYJCfI6cojgiu4JH2fEnEaMPrG8wFC8pXOio2IOlEVcNRWXEjcdlyS5Q9xt1nQ==
+
+"@grupoboticario/flora-react@^0.13.16":
+  version "0.13.16"
+  resolved "https://npm.pkg.github.com/download/@grupoboticario/flora-react/0.13.16/5f7f8a756476f6010aef7562c771a1d99999ee7e1f243f6cc81a2937677333b4#45f69f905e5af756caccc22d49ff5d54b7299eb9"
+  integrity sha512-f5gxFL2LGzXqylnIQ3O8y+8ixG5zZXorQl06zkCXKCmusYUlhB4Lo/CTp5ijE4k+M4mNWtZZ+xstdOiGxIE8cQ==
+  dependencies:
+    "@grupoboticario/flora-react-accordion" "3.0.1"
+    "@grupoboticario/flora-react-box" "3.0.0"
+    "@grupoboticario/flora-react-button" "3.0.0"
+    "@grupoboticario/flora-react-card" "3.0.0"
+    "@grupoboticario/flora-react-checkbox" "3.0.0"
+    "@grupoboticario/flora-react-container" "3.0.0"
+    "@grupoboticario/flora-react-dialog" "3.0.0"
+    "@grupoboticario/flora-react-drawer" "3.0.0"
+    "@grupoboticario/flora-react-dropdown" "3.0.0"
+    "@grupoboticario/flora-react-flex" "3.0.0"
+    "@grupoboticario/flora-react-flora-provider" "3.0.0"
+    "@grupoboticario/flora-react-grid" "3.0.0"
+    "@grupoboticario/flora-react-heading" "3.0.0"
+    "@grupoboticario/flora-react-hidden" "3.0.0"
+    "@grupoboticario/flora-react-hooks" "3.0.0"
+    "@grupoboticario/flora-react-image" "3.0.0"
+    "@grupoboticario/flora-react-input" "3.0.2"
+    "@grupoboticario/flora-react-modal" "3.0.0"
+    "@grupoboticario/flora-react-pagination" "3.0.0"
+    "@grupoboticario/flora-react-radio" "3.0.0"
+    "@grupoboticario/flora-react-scroll-area" "3.0.1"
+    "@grupoboticario/flora-react-slider" "3.0.1"
+    "@grupoboticario/flora-react-spinner" "3.0.0"
+    "@grupoboticario/flora-react-switch" "3.0.1"
+    "@grupoboticario/flora-react-system" "0.9.5"
+    "@grupoboticario/flora-react-tabs" "3.0.0"
+    "@grupoboticario/flora-react-tag" "3.0.1"
+    "@grupoboticario/flora-react-telemetry" "2.0.0"
+    "@grupoboticario/flora-react-text" "3.0.1"
+    "@grupoboticario/flora-react-toast" "3.0.3"
+    "@grupoboticario/flora-react-tooltip" "3.0.0"
+    "@grupoboticario/flora-react-utils" "3.0.0"
+
+"@grupoboticario/flora-tokens@0.5.15":
+  version "0.5.15"
+  resolved "https://npm.pkg.github.com/download/@grupoboticario/flora-tokens/0.5.15/10bad7246a418f667fec8ba1685115e3f4f459ec5f43c2e72222e6c9de3eb11b#8dea0aa3ba78b83f02511dd5b0b95b8a73e69b10"
+  integrity sha512-4X/u35c0fcGP3I85Dn7pLrxwaBcuzqmGyeG4NdfzXZVrh8/3dxdQSKUSYkLDDf9wJiP5vIh4JmEfj4CUzhctgQ==
+  dependencies:
+    handlebars "^4.7.7"
+    lodash "^4.17.21"
+
+"@grupoboticario/flora@0.19.7", "@grupoboticario/flora@^0.19.7":
+  version "0.19.7"
+  resolved "https://npm.pkg.github.com/download/@grupoboticario/flora/0.19.7/d71dc3ce3b43165f21bc28b85db03fbddeadf699ccb01da295da89947d0b59ef#067be2cc044dd349541c302cd53e93e41e3e490b"
+  integrity sha512-vSCBJY7po9d025kPLYQslaywhcAqz0hRD6o5nb0dsYLI9O+08RPWVk15+g+LAvhcrbDPzfccdsMp2zN1eDogvA==
+  dependencies:
+    "@grupoboticario/flora-tokens" "0.5.15"
+    "@stitches/react" "^1.2.8"
 
 "@humanwhocodes/config-array@^0.9.2":
   version "0.9.5"
@@ -1684,6 +1952,11 @@
     "@jridgewell/resolve-uri" "^3.0.3"
     "@jridgewell/sourcemap-codec" "^1.4.10"
 
+"@juggle/resize-observer@3.3.1":
+  version "3.3.1"
+  resolved "https://registry.yarnpkg.com/@juggle/resize-observer/-/resize-observer-3.3.1.tgz#b50a781709c81e10701004214340f25475a171a0"
+  integrity sha512-zMM9Ds+SawiUkakS7y94Ymqx+S0ORzpG3frZirN3l+UlXUmSUR7hF4wxCVqW+ei94JzV5kt0uXBcoOEAuiydrw==
+
 "@leichtgewicht/ip-codec@^2.0.1":
   version "2.0.4"
   resolved "https://registry.yarnpkg.com/@leichtgewicht/ip-codec/-/ip-codec-2.0.4.tgz#b2ac626d6cb9c8718ab459166d4bb405b8ffa78b"
@@ -1789,6 +2062,449 @@
     schema-utils "^3.0.0"
     source-map "^0.7.3"
 
+"@radix-ui/number@0.1.0":
+  version "0.1.0"
+  resolved "https://registry.yarnpkg.com/@radix-ui/number/-/number-0.1.0.tgz#73ad13d5cc5f75fa5e147d72e5d5d5e50d688256"
+  integrity sha512-rpf6QiOWLHAkM4FEMYu9i+5Jr8cKT893+R4mPpcdsy4LD7omr9JfdOqj/h/xPA5+EcVrpMMlU6rrRYpUB5UI8g==
+  dependencies:
+    "@babel/runtime" "^7.13.10"
+
+"@radix-ui/popper@0.1.0":
+  version "0.1.0"
+  resolved "https://registry.yarnpkg.com/@radix-ui/popper/-/popper-0.1.0.tgz#c387a38f31b7799e1ea0d2bb1ca0c91c2931b063"
+  integrity sha512-uzYeElL3w7SeNMuQpXiFlBhTT+JyaNMCwDfjKkrzugEcYrf5n52PHqncNdQPUtR42hJh8V9FsqyEDbDxkeNjJQ==
+  dependencies:
+    "@babel/runtime" "^7.13.10"
+    csstype "^3.0.4"
+
+"@radix-ui/primitive@0.1.0":
+  version "0.1.0"
+  resolved "https://registry.yarnpkg.com/@radix-ui/primitive/-/primitive-0.1.0.tgz#6206b97d379994f0d1929809db035733b337e543"
+  integrity sha512-tqxZKybwN5Fa3VzZry4G6mXAAb9aAqKmPtnVbZpL0vsBwvOHTBwsjHVPXylocYLwEtBY9SCe665bYnNB515uoA==
+  dependencies:
+    "@babel/runtime" "^7.13.10"
+
+"@radix-ui/react-accessible-icon@0.1.4":
+  version "0.1.4"
+  resolved "https://registry.yarnpkg.com/@radix-ui/react-accessible-icon/-/react-accessible-icon-0.1.4.tgz#bdbf1e3226a0e9e7778b68728b175bdc532b720c"
+  integrity sha512-H9lZtGTDS9XtoQK41pSq9Meb2fI+cLqZJTj1FxusRd7NviWbDAvytVXZE2XI5OOSFHi6C4wpOghBUQym3EJacQ==
+  dependencies:
+    "@babel/runtime" "^7.13.10"
+    "@radix-ui/react-visually-hidden" "0.1.4"
+
+"@radix-ui/react-announce@0.1.4":
+  version "0.1.4"
+  resolved "https://registry.yarnpkg.com/@radix-ui/react-announce/-/react-announce-0.1.4.tgz#348d38e20ee10e5ba024e4c6439498ea84d1ef80"
+  integrity sha512-9ipgKscZj1YegSmdySWSZB99SusybhlV5zz7ELgMILLfr9BDsaRoj9TsNzGdFYvOwDCAh29MATwbcZsTGwnMWw==
+  dependencies:
+    "@babel/runtime" "^7.13.10"
+    "@radix-ui/react-compose-refs" "0.1.0"
+    "@radix-ui/react-primitive" "0.1.4"
+    "@radix-ui/react-use-layout-effect" "0.1.0"
+
+"@radix-ui/react-arrow@0.1.4":
+  version "0.1.4"
+  resolved "https://registry.yarnpkg.com/@radix-ui/react-arrow/-/react-arrow-0.1.4.tgz#a871448a418cd3507d83840fdd47558cb961672b"
+  integrity sha512-BB6XzAb7Ml7+wwpFdYVtZpK1BlMgqyafSQNGzhIpSZ4uXvXOHPlR5GP8M449JkeQzgQjv9Mp1AsJxFC0KuOtuA==
+  dependencies:
+    "@babel/runtime" "^7.13.10"
+    "@radix-ui/react-primitive" "0.1.4"
+
+"@radix-ui/react-checkbox@0.1.5":
+  version "0.1.5"
+  resolved "https://registry.yarnpkg.com/@radix-ui/react-checkbox/-/react-checkbox-0.1.5.tgz#3a6bd54ba1720c8e5c03852acf460e35dfbe9da3"
+  integrity sha512-M8Y4dSXsKSbF+FryG5VvZKr/1MukMVG7swq9p5s7wYb8Rvn0UM0rQ5w8BWmSWSV4BL/gbJdhwVCznwXXlgZRZg==
+  dependencies:
+    "@babel/runtime" "^7.13.10"
+    "@radix-ui/primitive" "0.1.0"
+    "@radix-ui/react-compose-refs" "0.1.0"
+    "@radix-ui/react-context" "0.1.1"
+    "@radix-ui/react-label" "0.1.5"
+    "@radix-ui/react-presence" "0.1.2"
+    "@radix-ui/react-primitive" "0.1.4"
+    "@radix-ui/react-use-controllable-state" "0.1.0"
+    "@radix-ui/react-use-previous" "0.1.1"
+    "@radix-ui/react-use-size" "0.1.1"
+
+"@radix-ui/react-collection@0.1.4":
+  version "0.1.4"
+  resolved "https://registry.yarnpkg.com/@radix-ui/react-collection/-/react-collection-0.1.4.tgz#734061ffd5bb93e88889d49b87391a73a63824c9"
+  integrity sha512-3muGI15IdgaDFjOcO7xX8a35HQRBRF6LH9pS6UCeZeRmbslkVeHyJRQr2rzICBUoX7zgIA0kXyMDbpQnJGyJTA==
+  dependencies:
+    "@babel/runtime" "^7.13.10"
+    "@radix-ui/react-compose-refs" "0.1.0"
+    "@radix-ui/react-context" "0.1.1"
+    "@radix-ui/react-primitive" "0.1.4"
+    "@radix-ui/react-slot" "0.1.2"
+
+"@radix-ui/react-compose-refs@0.1.0":
+  version "0.1.0"
+  resolved "https://registry.yarnpkg.com/@radix-ui/react-compose-refs/-/react-compose-refs-0.1.0.tgz#cff6e780a0f73778b976acff2c2a5b6551caab95"
+  integrity sha512-eyclbh+b77k+69Dk72q3694OHrn9B3QsoIRx7ywX341U9RK1ThgQjMFZoPtmZNQTksXHLNEiefR8hGVeFyInGg==
+  dependencies:
+    "@babel/runtime" "^7.13.10"
+
+"@radix-ui/react-context@0.1.1":
+  version "0.1.1"
+  resolved "https://registry.yarnpkg.com/@radix-ui/react-context/-/react-context-0.1.1.tgz#06996829ea124d9a1bc1dbe3e51f33588fab0875"
+  integrity sha512-PkyVX1JsLBioeu0jB9WvRpDBBLtLZohVDT3BB5CTSJqActma8S8030P57mWZb4baZifMvN7KKWPAA40UmWKkQg==
+  dependencies:
+    "@babel/runtime" "^7.13.10"
+
+"@radix-ui/react-dialog@0.1.7":
+  version "0.1.7"
+  resolved "https://registry.yarnpkg.com/@radix-ui/react-dialog/-/react-dialog-0.1.7.tgz#285414cf66f5bbf42bc9935314e0381abe01e7d0"
+  integrity sha512-jXt8srGhHBRvEr9jhEAiwwJzWCWZoGRJ030aC9ja/gkRJbZdy0iD3FwXf+Ff4RtsZyLUMHW7VUwFOlz3Ixe1Vw==
+  dependencies:
+    "@babel/runtime" "^7.13.10"
+    "@radix-ui/primitive" "0.1.0"
+    "@radix-ui/react-compose-refs" "0.1.0"
+    "@radix-ui/react-context" "0.1.1"
+    "@radix-ui/react-dismissable-layer" "0.1.5"
+    "@radix-ui/react-focus-guards" "0.1.0"
+    "@radix-ui/react-focus-scope" "0.1.4"
+    "@radix-ui/react-id" "0.1.5"
+    "@radix-ui/react-portal" "0.1.4"
+    "@radix-ui/react-presence" "0.1.2"
+    "@radix-ui/react-primitive" "0.1.4"
+    "@radix-ui/react-slot" "0.1.2"
+    "@radix-ui/react-use-controllable-state" "0.1.0"
+    aria-hidden "^1.1.1"
+    react-remove-scroll "^2.4.0"
+
+"@radix-ui/react-dismissable-layer@0.1.5":
+  version "0.1.5"
+  resolved "https://registry.yarnpkg.com/@radix-ui/react-dismissable-layer/-/react-dismissable-layer-0.1.5.tgz#9379032351e79028d472733a5cc8ba4a0ea43314"
+  integrity sha512-J+fYWijkX4M4QKwf9dtu1oC0U6e6CEl8WhBp3Ad23yz2Hia0XCo6Pk/mp5CAFy4QBtQedTSkhW05AdtSOEoajQ==
+  dependencies:
+    "@babel/runtime" "^7.13.10"
+    "@radix-ui/primitive" "0.1.0"
+    "@radix-ui/react-compose-refs" "0.1.0"
+    "@radix-ui/react-primitive" "0.1.4"
+    "@radix-ui/react-use-body-pointer-events" "0.1.1"
+    "@radix-ui/react-use-callback-ref" "0.1.0"
+    "@radix-ui/react-use-escape-keydown" "0.1.0"
+
+"@radix-ui/react-dropdown-menu@0.1.6":
+  version "0.1.6"
+  resolved "https://registry.yarnpkg.com/@radix-ui/react-dropdown-menu/-/react-dropdown-menu-0.1.6.tgz#3203229788cd57e552c9f19dcc7008e2b545919c"
+  integrity sha512-RZhtzjWwJ4ZBN7D8ek4Zn+ilHzYuYta9yIxFnbC0pfqMnSi67IQNONo1tuuNqtFh9SRHacPKc65zo+kBBlxtdg==
+  dependencies:
+    "@babel/runtime" "^7.13.10"
+    "@radix-ui/primitive" "0.1.0"
+    "@radix-ui/react-compose-refs" "0.1.0"
+    "@radix-ui/react-context" "0.1.1"
+    "@radix-ui/react-id" "0.1.5"
+    "@radix-ui/react-menu" "0.1.6"
+    "@radix-ui/react-primitive" "0.1.4"
+    "@radix-ui/react-use-controllable-state" "0.1.0"
+
+"@radix-ui/react-focus-guards@0.1.0":
+  version "0.1.0"
+  resolved "https://registry.yarnpkg.com/@radix-ui/react-focus-guards/-/react-focus-guards-0.1.0.tgz#ba3b6f902cba7826569f8edc21ff8223dece7def"
+  integrity sha512-kRx/swAjEfBpQ3ns7J3H4uxpXuWCqN7MpALiSDOXiyo2vkWv0L9sxvbpZeTulINuE3CGMzicVMuNc/VWXjFKOg==
+  dependencies:
+    "@babel/runtime" "^7.13.10"
+
+"@radix-ui/react-focus-scope@0.1.4":
+  version "0.1.4"
+  resolved "https://registry.yarnpkg.com/@radix-ui/react-focus-scope/-/react-focus-scope-0.1.4.tgz#c830724e212d42ffaaa81aee49533213d09b47df"
+  integrity sha512-fbA4ES3H4Wkxp+OeLhvN6SwL7mXNn/aBtUf7DRYxY9+Akrf7dRxl2ck4lgcpPsSg3zSDsEwLcY+h5cmj5yvlug==
+  dependencies:
+    "@babel/runtime" "^7.13.10"
+    "@radix-ui/react-compose-refs" "0.1.0"
+    "@radix-ui/react-primitive" "0.1.4"
+    "@radix-ui/react-use-callback-ref" "0.1.0"
+
+"@radix-ui/react-id@0.1.5":
+  version "0.1.5"
+  resolved "https://registry.yarnpkg.com/@radix-ui/react-id/-/react-id-0.1.5.tgz#010d311bedd5a2884c1e9bb6aaaa4e6cc1d1d3b8"
+  integrity sha512-IPc4H/63bes0IZ1GJJozSEkSWcDyhNGtKFWUpJ+XtaLyQ1X3x7Mf6fWwWhDcpqlYEP+5WtAvfqcyEsyjP+ZhBQ==
+  dependencies:
+    "@babel/runtime" "^7.13.10"
+    "@radix-ui/react-use-layout-effect" "0.1.0"
+
+"@radix-ui/react-label@0.1.5":
+  version "0.1.5"
+  resolved "https://registry.yarnpkg.com/@radix-ui/react-label/-/react-label-0.1.5.tgz#12cd965bfc983e0148121d4c99fb8e27a917c45c"
+  integrity sha512-Au9+n4/DhvjR0IHhvZ1LPdx/OW+3CGDie30ZyCkbSHIuLp4/CV4oPPGBwJ1vY99Jog3zyQhsGww9MXj8O9Aj/A==
+  dependencies:
+    "@babel/runtime" "^7.13.10"
+    "@radix-ui/react-compose-refs" "0.1.0"
+    "@radix-ui/react-context" "0.1.1"
+    "@radix-ui/react-id" "0.1.5"
+    "@radix-ui/react-primitive" "0.1.4"
+
+"@radix-ui/react-menu@0.1.6":
+  version "0.1.6"
+  resolved "https://registry.yarnpkg.com/@radix-ui/react-menu/-/react-menu-0.1.6.tgz#7f9521a10f6a9cd819b33b33d5ed9538d79b2e75"
+  integrity sha512-ho3+bhpr3oAFkOBJ8VkUb1BcGoiZBB3OmcWPqa6i5RTUKrzNX/d6rauochu2xDlWjiRtpVuiAcsTVOeIC4FbYQ==
+  dependencies:
+    "@babel/runtime" "^7.13.10"
+    "@radix-ui/primitive" "0.1.0"
+    "@radix-ui/react-collection" "0.1.4"
+    "@radix-ui/react-compose-refs" "0.1.0"
+    "@radix-ui/react-context" "0.1.1"
+    "@radix-ui/react-dismissable-layer" "0.1.5"
+    "@radix-ui/react-focus-guards" "0.1.0"
+    "@radix-ui/react-focus-scope" "0.1.4"
+    "@radix-ui/react-id" "0.1.5"
+    "@radix-ui/react-popper" "0.1.4"
+    "@radix-ui/react-portal" "0.1.4"
+    "@radix-ui/react-presence" "0.1.2"
+    "@radix-ui/react-primitive" "0.1.4"
+    "@radix-ui/react-roving-focus" "0.1.5"
+    "@radix-ui/react-use-callback-ref" "0.1.0"
+    "@radix-ui/react-use-direction" "0.1.0"
+    aria-hidden "^1.1.1"
+    react-remove-scroll "^2.4.0"
+
+"@radix-ui/react-popper@0.1.4":
+  version "0.1.4"
+  resolved "https://registry.yarnpkg.com/@radix-ui/react-popper/-/react-popper-0.1.4.tgz#dfc055dcd7dfae6a2eff7a70d333141d15a5d029"
+  integrity sha512-18gDYof97t8UQa7zwklG1Dr8jIdj3u+rVOQLzPi9f5i1YQak/pVGkaqw8aY+iDUknKKuZniTk/7jbAJUYlKyOw==
+  dependencies:
+    "@babel/runtime" "^7.13.10"
+    "@radix-ui/popper" "0.1.0"
+    "@radix-ui/react-arrow" "0.1.4"
+    "@radix-ui/react-compose-refs" "0.1.0"
+    "@radix-ui/react-context" "0.1.1"
+    "@radix-ui/react-primitive" "0.1.4"
+    "@radix-ui/react-use-rect" "0.1.1"
+    "@radix-ui/react-use-size" "0.1.1"
+    "@radix-ui/rect" "0.1.1"
+
+"@radix-ui/react-portal@0.1.4":
+  version "0.1.4"
+  resolved "https://registry.yarnpkg.com/@radix-ui/react-portal/-/react-portal-0.1.4.tgz#17bdce3d7f1a9a0b35cb5e935ab8bc562441a7d2"
+  integrity sha512-MO0wRy2eYRTZ/CyOri9NANCAtAtq89DEtg90gicaTlkCfdqCLEBsLb+/q66BZQTr3xX/Vq01nnVfc/TkCqoqvw==
+  dependencies:
+    "@babel/runtime" "^7.13.10"
+    "@radix-ui/react-primitive" "0.1.4"
+    "@radix-ui/react-use-layout-effect" "0.1.0"
+
+"@radix-ui/react-presence@0.1.2":
+  version "0.1.2"
+  resolved "https://registry.yarnpkg.com/@radix-ui/react-presence/-/react-presence-0.1.2.tgz#9f11cce3df73cf65bc348e8b76d891f0d54c1fe3"
+  integrity sha512-3BRlFZraooIUfRlyN+b/Xs5hq1lanOOo/+3h6Pwu2GMFjkGKKa4Rd51fcqGqnVlbr3jYg+WLuGyAV4KlgqwrQw==
+  dependencies:
+    "@babel/runtime" "^7.13.10"
+    "@radix-ui/react-compose-refs" "0.1.0"
+    "@radix-ui/react-use-layout-effect" "0.1.0"
+
+"@radix-ui/react-primitive@0.1.4":
+  version "0.1.4"
+  resolved "https://registry.yarnpkg.com/@radix-ui/react-primitive/-/react-primitive-0.1.4.tgz#6c233cf08b0cb87fecd107e9efecb3f21861edc1"
+  integrity sha512-6gSl2IidySupIMJFjYnDIkIWRyQdbu/AHK7rbICPani+LW4b0XdxBXc46og/iZvuwW8pjCS8I2SadIerv84xYA==
+  dependencies:
+    "@babel/runtime" "^7.13.10"
+    "@radix-ui/react-slot" "0.1.2"
+
+"@radix-ui/react-radio-group@0.1.5":
+  version "0.1.5"
+  resolved "https://registry.yarnpkg.com/@radix-ui/react-radio-group/-/react-radio-group-0.1.5.tgz#ca8a676123a18b44804aff10af46129e2c2b37c3"
+  integrity sha512-ybgHsmh/V2crKvK6xZ56dpPul7b+vyxcq7obWqHbr5W6Ca11wdm0E7lS0i/Y6pgfIKYOWIARmZYDpRMEeRCPOw==
+  dependencies:
+    "@babel/runtime" "^7.13.10"
+    "@radix-ui/primitive" "0.1.0"
+    "@radix-ui/react-compose-refs" "0.1.0"
+    "@radix-ui/react-context" "0.1.1"
+    "@radix-ui/react-label" "0.1.5"
+    "@radix-ui/react-presence" "0.1.2"
+    "@radix-ui/react-primitive" "0.1.4"
+    "@radix-ui/react-roving-focus" "0.1.5"
+    "@radix-ui/react-use-controllable-state" "0.1.0"
+    "@radix-ui/react-use-previous" "0.1.1"
+    "@radix-ui/react-use-size" "0.1.1"
+
+"@radix-ui/react-roving-focus@0.1.5":
+  version "0.1.5"
+  resolved "https://registry.yarnpkg.com/@radix-ui/react-roving-focus/-/react-roving-focus-0.1.5.tgz#cc48d17a36b56f253d54905b0fd60ee134cb97ee"
+  integrity sha512-ClwKPS5JZE+PaHCoW7eu1onvE61pDv4kO8W4t5Ra3qMFQiTJLZMdpBQUhksN//DaVygoLirz4Samdr5Y1x1FSA==
+  dependencies:
+    "@babel/runtime" "^7.13.10"
+    "@radix-ui/primitive" "0.1.0"
+    "@radix-ui/react-collection" "0.1.4"
+    "@radix-ui/react-compose-refs" "0.1.0"
+    "@radix-ui/react-context" "0.1.1"
+    "@radix-ui/react-id" "0.1.5"
+    "@radix-ui/react-primitive" "0.1.4"
+    "@radix-ui/react-use-callback-ref" "0.1.0"
+    "@radix-ui/react-use-controllable-state" "0.1.0"
+
+"@radix-ui/react-scroll-area@0.1.4":
+  version "0.1.4"
+  resolved "https://registry.yarnpkg.com/@radix-ui/react-scroll-area/-/react-scroll-area-0.1.4.tgz#be1d32c113ee9f64e3d2e7ee3983d98f00b42038"
+  integrity sha512-QHxRsjy+hsHwQYJ9cCNgSJ5+6ioZu1KhwD1UOXoHNciuFGMX08v+uJPKXIz+ySv03Rx6cOz6f/Fk5aPHRMFi/A==
+  dependencies:
+    "@babel/runtime" "^7.13.10"
+    "@radix-ui/number" "0.1.0"
+    "@radix-ui/primitive" "0.1.0"
+    "@radix-ui/react-compose-refs" "0.1.0"
+    "@radix-ui/react-context" "0.1.1"
+    "@radix-ui/react-presence" "0.1.2"
+    "@radix-ui/react-primitive" "0.1.4"
+    "@radix-ui/react-use-callback-ref" "0.1.0"
+    "@radix-ui/react-use-direction" "0.1.0"
+    "@radix-ui/react-use-layout-effect" "0.1.0"
+
+"@radix-ui/react-slider@0.1.4":
+  version "0.1.4"
+  resolved "https://registry.yarnpkg.com/@radix-ui/react-slider/-/react-slider-0.1.4.tgz#a7b7a480ee00158195794b08cd3f1583cf102518"
+  integrity sha512-0z3bCcdrAi+FIcoLXS6r0ESVWuuyMnUJoCsFm7tC7Rtv95x34YtaI8YfSyQmzuMVS4rTsNtCCTZ/s727uRaVkQ==
+  dependencies:
+    "@babel/runtime" "^7.13.10"
+    "@radix-ui/number" "0.1.0"
+    "@radix-ui/primitive" "0.1.0"
+    "@radix-ui/react-collection" "0.1.4"
+    "@radix-ui/react-compose-refs" "0.1.0"
+    "@radix-ui/react-context" "0.1.1"
+    "@radix-ui/react-primitive" "0.1.4"
+    "@radix-ui/react-use-controllable-state" "0.1.0"
+    "@radix-ui/react-use-direction" "0.1.0"
+    "@radix-ui/react-use-layout-effect" "0.1.0"
+    "@radix-ui/react-use-previous" "0.1.1"
+    "@radix-ui/react-use-size" "0.1.1"
+
+"@radix-ui/react-slot@0.1.2":
+  version "0.1.2"
+  resolved "https://registry.yarnpkg.com/@radix-ui/react-slot/-/react-slot-0.1.2.tgz#e6f7ad9caa8ce81cc8d532c854c56f9b8b6307c8"
+  integrity sha512-ADkqfL+agEzEguU3yS26jfB50hRrwf7U4VTwAOZEmi/g+ITcBWe12yM46ueS/UCIMI9Py+gFUaAdxgxafFvY2Q==
+  dependencies:
+    "@babel/runtime" "^7.13.10"
+    "@radix-ui/react-compose-refs" "0.1.0"
+
+"@radix-ui/react-switch@0.1.5":
+  version "0.1.5"
+  resolved "https://registry.yarnpkg.com/@radix-ui/react-switch/-/react-switch-0.1.5.tgz#071ffa19a17a47fdc5c5e6f371bd5901c9fef2f4"
+  integrity sha512-ITtslJPK+Yi34iNf7K9LtsPaLD76oRIVzn0E8JpEO5HW8gpRBGb2NNI9mxKtEB30TVqIcdjdL10AmuIfOMwjtg==
+  dependencies:
+    "@babel/runtime" "^7.13.10"
+    "@radix-ui/primitive" "0.1.0"
+    "@radix-ui/react-compose-refs" "0.1.0"
+    "@radix-ui/react-context" "0.1.1"
+    "@radix-ui/react-label" "0.1.5"
+    "@radix-ui/react-primitive" "0.1.4"
+    "@radix-ui/react-use-controllable-state" "0.1.0"
+    "@radix-ui/react-use-previous" "0.1.1"
+    "@radix-ui/react-use-size" "0.1.1"
+
+"@radix-ui/react-tabs@0.1.5":
+  version "0.1.5"
+  resolved "https://registry.yarnpkg.com/@radix-ui/react-tabs/-/react-tabs-0.1.5.tgz#ddcf860cc32e186d76477ae767dbb216d1944252"
+  integrity sha512-ieVQS1TFr0dX1XA8B+CsSFKOE7kcgEaNWWEfItxj9D1GZjn1o3WqPkW+FhQWDAWZLSKCH2PezYF3MNyO41lgJg==
+  dependencies:
+    "@babel/runtime" "^7.13.10"
+    "@radix-ui/primitive" "0.1.0"
+    "@radix-ui/react-context" "0.1.1"
+    "@radix-ui/react-id" "0.1.5"
+    "@radix-ui/react-primitive" "0.1.4"
+    "@radix-ui/react-roving-focus" "0.1.5"
+    "@radix-ui/react-use-controllable-state" "0.1.0"
+
+"@radix-ui/react-tooltip@0.1.7":
+  version "0.1.7"
+  resolved "https://registry.yarnpkg.com/@radix-ui/react-tooltip/-/react-tooltip-0.1.7.tgz#6f8c00d6e489565d14abf209ce0fb8853c8c8ee3"
+  integrity sha512-eiBUsVOHenZ0JR16tl970bB0DafJBz6mFgSGfIGIVpflFj0LIsIDiLMsYyvYdx1KwwsIUDTEZtxcPm/sWjPzqA==
+  dependencies:
+    "@babel/runtime" "^7.13.10"
+    "@radix-ui/primitive" "0.1.0"
+    "@radix-ui/react-compose-refs" "0.1.0"
+    "@radix-ui/react-context" "0.1.1"
+    "@radix-ui/react-id" "0.1.5"
+    "@radix-ui/react-popper" "0.1.4"
+    "@radix-ui/react-portal" "0.1.4"
+    "@radix-ui/react-presence" "0.1.2"
+    "@radix-ui/react-primitive" "0.1.4"
+    "@radix-ui/react-slot" "0.1.2"
+    "@radix-ui/react-use-controllable-state" "0.1.0"
+    "@radix-ui/react-use-escape-keydown" "0.1.0"
+    "@radix-ui/react-use-previous" "0.1.1"
+    "@radix-ui/react-use-rect" "0.1.1"
+    "@radix-ui/react-visually-hidden" "0.1.4"
+
+"@radix-ui/react-use-body-pointer-events@0.1.1":
+  version "0.1.1"
+  resolved "https://registry.yarnpkg.com/@radix-ui/react-use-body-pointer-events/-/react-use-body-pointer-events-0.1.1.tgz#63e7fd81ca7ffd30841deb584cd2b7f460df2597"
+  integrity sha512-R8leV2AWmJokTmERM8cMXFHWSiv/fzOLhG/JLmRBhLTAzOj37EQizssq4oW0Z29VcZy2tODMi9Pk/htxwb+xpA==
+  dependencies:
+    "@babel/runtime" "^7.13.10"
+    "@radix-ui/react-use-layout-effect" "0.1.0"
+
+"@radix-ui/react-use-callback-ref@0.1.0":
+  version "0.1.0"
+  resolved "https://registry.yarnpkg.com/@radix-ui/react-use-callback-ref/-/react-use-callback-ref-0.1.0.tgz#934b6e123330f5b3a6b116460e6662cbc663493f"
+  integrity sha512-Va041McOFFl+aV+sejvl0BS2aeHx86ND9X/rVFmEFQKTXCp6xgUK0NGUAGcgBlIjnJSbMYPGEk1xKSSlVcN2Aw==
+  dependencies:
+    "@babel/runtime" "^7.13.10"
+
+"@radix-ui/react-use-controllable-state@0.1.0":
+  version "0.1.0"
+  resolved "https://registry.yarnpkg.com/@radix-ui/react-use-controllable-state/-/react-use-controllable-state-0.1.0.tgz#4fced164acfc69a4e34fb9d193afdab973a55de1"
+  integrity sha512-zv7CX/PgsRl46a52Tl45TwqwVJdmqnlQEQhaYMz/yBOD2sx2gCkCFSoF/z9mpnYWmS6DTLNTg5lIps3fV6EnXg==
+  dependencies:
+    "@babel/runtime" "^7.13.10"
+    "@radix-ui/react-use-callback-ref" "0.1.0"
+
+"@radix-ui/react-use-direction@0.1.0":
+  version "0.1.0"
+  resolved "https://registry.yarnpkg.com/@radix-ui/react-use-direction/-/react-use-direction-0.1.0.tgz#97ac1d52e497c974389e7988f809238ed72e7df7"
+  integrity sha512-NajpY/An9TCPSfOVkgWIdXJV+VuWl67PxB6kOKYmtNAFHvObzIoh8o0n9sAuwSAyFCZVq211FEf9gvVDRhOyiA==
+  dependencies:
+    "@babel/runtime" "^7.13.10"
+
+"@radix-ui/react-use-escape-keydown@0.1.0":
+  version "0.1.0"
+  resolved "https://registry.yarnpkg.com/@radix-ui/react-use-escape-keydown/-/react-use-escape-keydown-0.1.0.tgz#dc80cb3753e9d1bd992adbad9a149fb6ea941874"
+  integrity sha512-tDLZbTGFmvXaazUXXv8kYbiCcbAE8yKgng9s95d8fCO+Eundv0Jngbn/hKPhDDs4jj9ChwRX5cDDnlaN+ugYYQ==
+  dependencies:
+    "@babel/runtime" "^7.13.10"
+    "@radix-ui/react-use-callback-ref" "0.1.0"
+
+"@radix-ui/react-use-layout-effect@0.1.0":
+  version "0.1.0"
+  resolved "https://registry.yarnpkg.com/@radix-ui/react-use-layout-effect/-/react-use-layout-effect-0.1.0.tgz#ebf71bd6d2825de8f1fbb984abf2293823f0f223"
+  integrity sha512-+wdeS51Y+E1q1Wmd+1xSSbesZkpVj4jsg0BojCbopWvgq5iBvixw5vgemscdh58ep98BwUbsFYnrywFhV9yrVg==
+  dependencies:
+    "@babel/runtime" "^7.13.10"
+
+"@radix-ui/react-use-previous@0.1.1":
+  version "0.1.1"
+  resolved "https://registry.yarnpkg.com/@radix-ui/react-use-previous/-/react-use-previous-0.1.1.tgz#0226017f72267200f6e832a7103760e96a6db5d0"
+  integrity sha512-O/ZgrDBr11dR8rhO59ED8s5zIXBRFi8MiS+CmFGfi7MJYdLbfqVOmQU90Ghf87aifEgWe6380LA69KBneaShAg==
+  dependencies:
+    "@babel/runtime" "^7.13.10"
+
+"@radix-ui/react-use-rect@0.1.1":
+  version "0.1.1"
+  resolved "https://registry.yarnpkg.com/@radix-ui/react-use-rect/-/react-use-rect-0.1.1.tgz#6c15384beee59c086e75b89a7e66f3d2e583a856"
+  integrity sha512-kHNNXAsP3/PeszEmM/nxBBS9Jbo93sO+xuMTcRfwzXsmxT5gDXQzAiKbZQ0EecCPtJIzqvr7dlaQi/aP1PKYqQ==
+  dependencies:
+    "@babel/runtime" "^7.13.10"
+    "@radix-ui/rect" "0.1.1"
+
+"@radix-ui/react-use-size@0.1.1":
+  version "0.1.1"
+  resolved "https://registry.yarnpkg.com/@radix-ui/react-use-size/-/react-use-size-0.1.1.tgz#f6b75272a5d41c3089ca78c8a2e48e5f204ef90f"
+  integrity sha512-pTgWM5qKBu6C7kfKxrKPoBI2zZYZmp2cSXzpUiGM3qEBQlMLtYhaY2JXdXUCxz+XmD1YEjc8oRwvyfsD4AG4WA==
+  dependencies:
+    "@babel/runtime" "^7.13.10"
+
+"@radix-ui/react-visually-hidden@0.1.4":
+  version "0.1.4"
+  resolved "https://registry.yarnpkg.com/@radix-ui/react-visually-hidden/-/react-visually-hidden-0.1.4.tgz#6c75eae34fb5d084b503506fbfc05587ced05f03"
+  integrity sha512-K/q6AEEzqeeEq/T0NPChvBqnwlp8Tl4NnQdrI/y8IOY7BRR+Ug0PEsVk6g48HJ7cA1//COugdxXXVVK/m0X1mA==
+  dependencies:
+    "@babel/runtime" "^7.13.10"
+    "@radix-ui/react-primitive" "0.1.4"
+
+"@radix-ui/rect@0.1.1":
+  version "0.1.1"
+  resolved "https://registry.yarnpkg.com/@radix-ui/rect/-/rect-0.1.1.tgz#95b5ba51f469bea6b1b841e2d427e17e37d38419"
+  integrity sha512-g3hnE/UcOg7REdewduRPAK88EPuLZtaq7sA9ouu8S+YEtnyFRI16jgv6GZYe3VMoQLL1T171ebmEPtDjyxWLzw==
+  dependencies:
+    "@babel/runtime" "^7.13.10"
+
 "@rollup/plugin-babel@^5.2.0":
   version "5.3.1"
   resolved "https://registry.yarnpkg.com/@rollup/plugin-babel/-/plugin-babel-5.3.1.tgz#04bc0608f4aa4b2e4b1aebf284344d0f68fda283"
@@ -1849,6 +2565,11 @@
   integrity sha512-OAPJUAtgeINhh/TAlUID4QTs53Njm7xzddaVlEs/SXwgtiD1tW22zAB/W1wdqfrpmikgaWQ9Fw6Ws+hsiRm5Vg==
   dependencies:
     "@sinonjs/commons" "^1.7.0"
+
+"@stitches/react@^1.2.8":
+  version "1.2.8"
+  resolved "https://registry.yarnpkg.com/@stitches/react/-/react-1.2.8.tgz#954f8008be8d9c65c4e58efa0937f32388ce3a38"
+  integrity sha512-9g9dWI4gsSVe8bNLlb+lMkBYsnIKCZTmvqvDG+Avnn69XfmHZKiaMrx7cgTaddq7aTPPmXiTsbFcUy0xgI4+wA==
 
 "@storybook/addon-actions@6.5.9", "@storybook/addon-actions@^6.5.9":
   version "6.5.9"
@@ -4058,6 +4779,13 @@ argparse@^2.0.1:
   resolved "https://registry.yarnpkg.com/argparse/-/argparse-2.0.1.tgz#246f50f3ca78a3240f6c997e8a9bd1eac49e4b38"
   integrity sha512-8+9WqebbFzpX9OR+Wa6O29asIogeRMzcGtAINdpMHHyAg10f05aSFVBbcEqGf/PXw1EjAZ+q2/bEBg3DvurK3Q==
 
+aria-hidden@^1.1.1:
+  version "1.1.3"
+  resolved "https://registry.yarnpkg.com/aria-hidden/-/aria-hidden-1.1.3.tgz#bb48de18dc84787a3c6eee113709c473c64ec254"
+  integrity sha512-RhVWFtKH5BiGMycI72q2RAFMLQi8JP9bLuQXgR5a8Znp7P5KOIADSJeyfI8PCVxLEp067B2HbP5JIiI/PXIZeA==
+  dependencies:
+    tslib "^1.0.0"
+
 aria-query@^4.2.2:
   version "4.2.2"
   resolved "https://registry.yarnpkg.com/aria-query/-/aria-query-4.2.2.tgz#0d2ca6c9aceb56b8977e9fed6aed7e15bbd2f83b"
@@ -4275,6 +5003,13 @@ axe-core@^4.4.2:
   version "4.4.3"
   resolved "https://registry.yarnpkg.com/axe-core/-/axe-core-4.4.3.tgz#11c74d23d5013c0fa5d183796729bc3482bd2f6f"
   integrity sha512-32+ub6kkdhhWick/UjvEwRchgoetXqTK14INLqbGm5U2TzBkBNF3nQtLYm8ovxSkQWArjEQvftCKryjZaATu3w==
+
+axios@^0.25.0:
+  version "0.25.0"
+  resolved "https://registry.yarnpkg.com/axios/-/axios-0.25.0.tgz#349cfbb31331a9b4453190791760a8d35b093e0a"
+  integrity sha512-cD8FOb0tRH3uuEe6+evtAbgJtfxr7ly3fQjYcMcuPlgkwVS9xboaVIpcDV+cYQe+yGykgwZCs1pzjntcGa6l5g==
+  dependencies:
+    follow-redirects "^1.14.7"
 
 axobject-query@^2.2.0:
   version "2.2.0"
@@ -5760,7 +6495,7 @@ cssstyle@^2.3.0:
   dependencies:
     cssom "~0.3.6"
 
-csstype@^3.0.2:
+csstype@^3.0.2, csstype@^3.0.4:
   version "3.1.0"
   resolved "https://registry.yarnpkg.com/csstype/-/csstype-3.1.0.tgz#4ddcac3718d787cf9df0d1b7d15033925c8f29f2"
   integrity sha512-uX1KG+x9h5hIJsaKR9xHUeUraxf8IODOwq9JLNPq6BwB04a/xgpq3rcx47l5BZu5zBPlgD342tdke3Hom/nJRA==
@@ -5942,6 +6677,11 @@ detect-newline@^3.0.0:
   version "3.1.0"
   resolved "https://registry.yarnpkg.com/detect-newline/-/detect-newline-3.1.0.tgz#576f5dfc63ae1a192ff192d8ad3af6308991b651"
   integrity sha512-TLz+x/vEXm/Y7P7wn1EJFNLxYpUD4TgMosxY6fAVJUnJMbupHBOncxyWUG9OpTaH9EBD7uFI5LfEgmMOc54DsA==
+
+detect-node-es@^1.1.0:
+  version "1.1.0"
+  resolved "https://registry.yarnpkg.com/detect-node-es/-/detect-node-es-1.1.0.tgz#163acdf643330caa0b4cd7c21e7ee7755d6fa493"
+  integrity sha512-ypdmJU/TbBby2Dxibuv7ZLW3Bs1QEmM7nHjEANfohJLvE0XVujisn1qPJcZxg+qDucsr+bP6fLD1rPS3AhJ7EQ==
 
 detect-node@^2.0.4:
   version "2.1.0"
@@ -7063,7 +7803,7 @@ focus-lock@^0.8.0:
   dependencies:
     tslib "^1.9.3"
 
-follow-redirects@^1.0.0:
+follow-redirects@^1.0.0, follow-redirects@^1.14.7:
   version "1.15.1"
   resolved "https://registry.yarnpkg.com/follow-redirects/-/follow-redirects-1.15.1.tgz#0ca6a452306c9b276e4d3127483e29575e207ad5"
   integrity sha512-yLAMQs+k0b2m7cVxpS1VKJVvoz7SS9Td1zss3XRwXj+ZDH00RJgnuLx7E44wx02kQLrdM3aOOy+FpzS7+8OizA==
@@ -7143,6 +7883,26 @@ fragment-cache@^0.2.1:
   integrity sha512-GMBAbW9antB8iZRHLoGw0b3HANt57diZYFO/HL1JGIC1MjKrdmhxvrJbupnVvpys0zsz7yBApXdQyfepKly2kA==
   dependencies:
     map-cache "^0.2.2"
+
+framer-motion@4.1.17:
+  version "4.1.17"
+  resolved "https://registry.yarnpkg.com/framer-motion/-/framer-motion-4.1.17.tgz#4029469252a62ea599902e5a92b537120cc89721"
+  integrity sha512-thx1wvKzblzbs0XaK2X0G1JuwIdARcoNOW7VVwjO8BUltzXPyONGAElLu6CiCScsOQRI7FIk/45YTFtJw5Yozw==
+  dependencies:
+    framesync "5.3.0"
+    hey-listen "^1.0.8"
+    popmotion "9.3.6"
+    style-value-types "4.1.4"
+    tslib "^2.1.0"
+  optionalDependencies:
+    "@emotion/is-prop-valid" "^0.8.2"
+
+framesync@5.3.0:
+  version "5.3.0"
+  resolved "https://registry.yarnpkg.com/framesync/-/framesync-5.3.0.tgz#0ecfc955e8f5a6ddc8fdb0cc024070947e1a0d9b"
+  integrity sha512-oc5m68HDO/tuK2blj7ZcdEBRx3p1PjrgHazL8GYEpvULhrtGIFbQArN6cQS2QhW8mitffaB+VYzMjDqBxxQeoA==
+  dependencies:
+    tslib "^2.1.0"
 
 fresh@0.5.2:
   version "0.5.2"
@@ -7274,6 +8034,11 @@ get-intrinsic@^1.0.2, get-intrinsic@^1.1.0, get-intrinsic@^1.1.1:
     function-bind "^1.1.1"
     has "^1.0.3"
     has-symbols "^1.0.3"
+
+get-nonce@^1.0.0:
+  version "1.0.1"
+  resolved "https://registry.yarnpkg.com/get-nonce/-/get-nonce-1.0.1.tgz#fdf3f0278073820d2ce9426c18f07481b1e0cdf3"
+  integrity sha512-FJhYRoDaiatfEkUK8HKlicmu/3SGFD51q3itKDGoSTysQJBnfOcxU5GxnhE1E6soB76MbT0MBtnKJuXyAx+96Q==
 
 get-own-enumerable-property-symbols@^3.0.0:
   version "3.0.2"
@@ -7425,6 +8190,17 @@ globby@^11.0.2, globby@^11.0.4, globby@^11.1.0:
     ignore "^5.2.0"
     merge2 "^1.4.1"
     slash "^3.0.0"
+
+globby@^13.1.0:
+  version "13.1.2"
+  resolved "https://registry.yarnpkg.com/globby/-/globby-13.1.2.tgz#29047105582427ab6eca4f905200667b056da515"
+  integrity sha512-LKSDZXToac40u8Q1PQtZihbNdTYSNMuWe+K5l+oa6KgDzSvVrHXlJy40hUP522RjAIoNLJYBJi7ow+rbFpIhHQ==
+  dependencies:
+    dir-glob "^3.0.1"
+    fast-glob "^3.2.11"
+    ignore "^5.2.0"
+    merge2 "^1.4.1"
+    slash "^4.0.0"
 
 globby@^9.2.0:
   version "9.2.0"
@@ -7647,6 +8423,11 @@ he@^1.2.0:
   version "1.2.0"
   resolved "https://registry.yarnpkg.com/he/-/he-1.2.0.tgz#84ae65fa7eafb165fddb61566ae14baf05664f0f"
   integrity sha512-F/1DnUGPopORZi0ni+CvrCgHQ5FyEAHRLSApuYWMmrbSwoN2Mn/7k+Gl38gJnR7yyDZk6WLXwiGod1JOWNDKGw==
+
+hey-listen@^1.0.8:
+  version "1.0.8"
+  resolved "https://registry.yarnpkg.com/hey-listen/-/hey-listen-1.0.8.tgz#8e59561ff724908de1aa924ed6ecc84a56a9aa68"
+  integrity sha512-COpmrF2NOg4TBWUJ5UVyaCU2A88wEMkUPK4hNqyCkqHbxT92BbvfjoSozkAIIm6XhicGlJHhFdullInrdhwU8Q==
 
 highlight.js@^10.4.1, highlight.js@~10.7.0:
   version "10.7.3"
@@ -7996,6 +8777,13 @@ interpret@^2.2.0:
   version "2.2.0"
   resolved "https://registry.yarnpkg.com/interpret/-/interpret-2.2.0.tgz#1a78a0b5965c40a5416d007ad6f50ad27c417df9"
   integrity sha512-Ju0Bz/cEia55xDwUWEa8+olFpCiQoypjnQySseKtmjNrnps3P+xfpUmGr90T7yjlVJmOtybRvPXhKMbHr+fWnw==
+
+invariant@^2.2.4:
+  version "2.2.4"
+  resolved "https://registry.yarnpkg.com/invariant/-/invariant-2.2.4.tgz#610f3c92c9359ce1db616e538008d23ff35158e6"
+  integrity sha512-phJfQVBuaJM5raOpJjSfkiD6BpbCE4Ns//LaXl6wGYtUBY83nWS6Rf9tXm2e8VaK60JEjYldbPif/A2B1C2gNA==
+  dependencies:
+    loose-envify "^1.0.0"
 
 ip@^2.0.0:
   version "2.0.0"
@@ -9389,7 +10177,7 @@ lodash@^4.17.15, lodash@^4.17.19, lodash@^4.17.20, lodash@^4.17.21, lodash@^4.7.
   resolved "https://registry.yarnpkg.com/lodash/-/lodash-4.17.21.tgz#679591c564c3bffaae8454cf0b3df370c3d6911c"
   integrity sha512-v2kDEe57lecTulaDIuNTPy3Ry4gLGJ6Z1O3vE1krgXZNrsQ+LFTGHVxVjcXPs17LhbZVGedAJv8XZ1tvj5FvSg==
 
-loose-envify@^1.1.0, loose-envify@^1.4.0:
+loose-envify@^1.0.0, loose-envify@^1.1.0, loose-envify@^1.4.0:
   version "1.4.0"
   resolved "https://registry.yarnpkg.com/loose-envify/-/loose-envify-1.4.0.tgz#71ee51fa7be4caec1a63839f7e682d8132d30caf"
   integrity sha512-lyuxPGr/Wfhrlem2CL/UcnUc1zcqKAImBDzukY7Y5F/yQiNdko6+fRLevlw1HgMySw7f611UIY408EtxRSoK3Q==
@@ -10665,6 +11453,16 @@ polished@^4.2.2:
   dependencies:
     "@babel/runtime" "^7.17.8"
 
+popmotion@9.3.6:
+  version "9.3.6"
+  resolved "https://registry.yarnpkg.com/popmotion/-/popmotion-9.3.6.tgz#b5236fa28f242aff3871b9e23721f093133248d1"
+  integrity sha512-ZTbXiu6zIggXzIliMi8LGxXBF5ST+wkpXGEjeTUDUOCdSQ356hij/xjeUdv0F8zCQNeqB1+PR5/BB+gC+QLAPw==
+  dependencies:
+    framesync "5.3.0"
+    hey-listen "^1.0.8"
+    style-value-types "4.1.4"
+    tslib "^2.1.0"
+
 posix-character-classes@^0.1.0:
   version "0.1.1"
   resolved "https://registry.yarnpkg.com/posix-character-classes/-/posix-character-classes-0.1.1.tgz#01eac0fe3b5af71a2a6c02feabb8c1fef7e00eab"
@@ -11691,6 +12489,25 @@ react-refresh@^0.11.0:
   resolved "https://registry.yarnpkg.com/react-refresh/-/react-refresh-0.11.0.tgz#77198b944733f0f1f1a90e791de4541f9f074046"
   integrity sha512-F27qZr8uUqwhWZboondsPx8tnC3Ct3SxZA3V5WyEvujRyyNv0VYPhoBg1gZ8/MV5tubQp76Trw8lTv9hzRBa+A==
 
+react-remove-scroll-bar@^2.3.3:
+  version "2.3.3"
+  resolved "https://registry.yarnpkg.com/react-remove-scroll-bar/-/react-remove-scroll-bar-2.3.3.tgz#e291f71b1bb30f5f67f023765b7435f4b2b2cd94"
+  integrity sha512-i9GMNWwpz8XpUpQ6QlevUtFjHGqnPG4Hxs+wlIJntu/xcsZVEpJcIV71K3ZkqNy2q3GfgvkD7y6t/Sv8ofYSbw==
+  dependencies:
+    react-style-singleton "^2.2.1"
+    tslib "^2.0.0"
+
+react-remove-scroll@^2.4.0:
+  version "2.5.5"
+  resolved "https://registry.yarnpkg.com/react-remove-scroll/-/react-remove-scroll-2.5.5.tgz#1e31a1260df08887a8a0e46d09271b52b3a37e77"
+  integrity sha512-ImKhrzJJsyXJfBZ4bzu8Bwpka14c/fQt0k+cyFp/PBhTfyDnU5hjOtM4AG/0AMyy8oKzOTR0lDgJIM7pYXI0kw==
+  dependencies:
+    react-remove-scroll-bar "^2.3.3"
+    react-style-singleton "^2.2.1"
+    tslib "^2.1.0"
+    use-callback-ref "^1.3.0"
+    use-sidecar "^1.1.2"
+
 react-scripts@5.0.1:
   version "5.0.1"
   resolved "https://registry.yarnpkg.com/react-scripts/-/react-scripts-5.0.1.tgz#6285dbd65a8ba6e49ca8d651ce30645a6d980003"
@@ -11745,6 +12562,15 @@ react-scripts@5.0.1:
     workbox-webpack-plugin "^6.4.1"
   optionalDependencies:
     fsevents "^2.3.2"
+
+react-style-singleton@^2.2.1:
+  version "2.2.1"
+  resolved "https://registry.yarnpkg.com/react-style-singleton/-/react-style-singleton-2.2.1.tgz#f99e420492b2d8f34d38308ff660b60d0b1205b4"
+  integrity sha512-ZWj0fHEMyWkHzKYUr2Bs/4zU6XLmq9HsgBURm7g5pAVfyn49DgUiNgY2d4lXRlYSiCif9YBGpQleewkcqddc7g==
+  dependencies:
+    get-nonce "^1.0.0"
+    invariant "^2.2.4"
+    tslib "^2.0.0"
 
 react-syntax-highlighter@^15.4.5:
   version "15.5.0"
@@ -13026,6 +13852,14 @@ style-to-object@0.3.0, style-to-object@^0.3.0:
   dependencies:
     inline-style-parser "0.1.1"
 
+style-value-types@4.1.4:
+  version "4.1.4"
+  resolved "https://registry.yarnpkg.com/style-value-types/-/style-value-types-4.1.4.tgz#80f37cb4fb024d6394087403dfb275e8bb627e75"
+  integrity sha512-LCJL6tB+vPSUoxgUBt9juXIlNJHtBMy8jkXzUJSBzeHWdBu6lhzHqCvLVkXFGsFIlNa2ln1sQHya/gzaFmB2Lg==
+  dependencies:
+    hey-listen "^1.0.8"
+    tslib "^2.1.0"
+
 stylehacks@^5.1.0:
   version "5.1.0"
   resolved "https://registry.yarnpkg.com/stylehacks/-/stylehacks-5.1.0.tgz#a40066490ca0caca04e96c6b02153ddc39913520"
@@ -13436,12 +14270,12 @@ tsconfig-paths@^3.14.1:
     minimist "^1.2.6"
     strip-bom "^3.0.0"
 
-tslib@^1.8.1, tslib@^1.9.3:
+tslib@^1.0.0, tslib@^1.8.1, tslib@^1.9.3:
   version "1.14.1"
   resolved "https://registry.yarnpkg.com/tslib/-/tslib-1.14.1.tgz#cf2d38bdc34a134bcaf1091c41f6619e2f672d00"
   integrity sha512-Xni35NKzjgMrwevysHTCArtLDpPvye8zV/0E4EyYn43P7/7qvQwPh9BGkHewbMulVntbigmcT7rdX3BNo9wRJg==
 
-tslib@^2.0.0, tslib@^2.0.1, tslib@^2.0.3:
+tslib@^2.0.0, tslib@^2.0.1, tslib@^2.0.3, tslib@^2.1.0:
   version "2.4.0"
   resolved "https://registry.yarnpkg.com/tslib/-/tslib-2.4.0.tgz#7cecaa7f073ce680a05847aa77be941098f36dc3"
   integrity sha512-d6xOpEDfsi2CZVlPQzGeux8XMwLT9hssAsaPYExaQMuYskwb+x1x7J371tWlbBdWHroy99KnVB6qIkUbs5X3UQ==
@@ -13750,6 +14584,21 @@ url@^0.11.0:
   dependencies:
     punycode "1.3.2"
     querystring "0.2.0"
+
+use-callback-ref@^1.3.0:
+  version "1.3.0"
+  resolved "https://registry.yarnpkg.com/use-callback-ref/-/use-callback-ref-1.3.0.tgz#772199899b9c9a50526fedc4993fc7fa1f7e32d5"
+  integrity sha512-3FT9PRuRdbB9HfXhEq35u4oZkvpJ5kuYbpqhCfmiZyReuRgpnhDlbr2ZEnnuS0RrJAPn6l23xjFg9kpDM+Ms7w==
+  dependencies:
+    tslib "^2.0.0"
+
+use-sidecar@^1.1.2:
+  version "1.1.2"
+  resolved "https://registry.yarnpkg.com/use-sidecar/-/use-sidecar-1.1.2.tgz#2f43126ba2d7d7e117aa5855e5d8f0276dfe73c2"
+  integrity sha512-epTbsLuzZ7lPClpz2TyryBfztm7m+28DlEv2ZCQ3MDr5ssiwyOwGH/e5F9CkfWjJ1t4clvI58yF822/GUkjjhw==
+  dependencies:
+    detect-node-es "^1.1.0"
+    tslib "^2.0.0"
 
 use@^3.1.0:
   version "3.1.1"
